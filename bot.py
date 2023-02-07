@@ -318,12 +318,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/PredatorHackerzZ/TG-FileStore")
+                        InlineKeyboardButton("𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗕𝗼𝘁 𝗖𝗼𝗻𝘁𝗮𝗰𝘁",
+                                             url="https://t.me/CR_0O0")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("𝙂𝙤 𝙃𝙤𝙢𝙚", callback_data="gotohome"),
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘿𝙚𝙫 👨‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -336,12 +336,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/PredatorHackerzZ/TG-FileStore")
+                        InlineKeyboardButton("𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗕𝗼𝘁 𝗖𝗼𝗻𝘁𝗮𝗰𝘁",
+                                             url="https://t.me/CR_0O0")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘽𝙤𝙩 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("𝙂𝙤 𝙃𝙤𝙢𝙚", callback_data="gotohome")
                     ]
                 ]
             )
@@ -354,16 +354,16 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/PayForBotz")
+                        InlineKeyboardButton("𝘽𝙤𝙩𝙨𝙇𝙞𝙨𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=https://t.me/DynoBots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘽𝙤𝙩 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘿𝙚𝙫 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TeleRoid14"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup")
+                        InlineKeyboardButton("𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/CR_0O0"),
+                        InlineKeyboardButton("𝘽𝙤𝙩𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/DynoBots")
                     ]
                 ]
             )
