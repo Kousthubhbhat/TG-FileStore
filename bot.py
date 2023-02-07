@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝘽𝙤𝙩𝙨𝙇𝙞𝙨𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=https://t.me/DynoBots")
+                        InlineKeyboardButton("𝘽𝙤𝙩𝙨𝙇𝙞𝙨𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/DynoBots")
                     ],
                     [
                         InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘽𝙤𝙩 🤖", callback_data="aboutbot"),
