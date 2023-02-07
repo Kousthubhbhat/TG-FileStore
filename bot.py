@@ -134,8 +134,8 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option from below:**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("𝙎𝙖𝙫𝙚 𝙞𝙣 𝘽𝙖𝙩𝙘𝙝", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("𝙂𝙚𝙩 𝙎𝙝𝙖𝙧𝙖𝙗𝙡𝙚 𝙇𝙞𝙣𝙠", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
@@ -390,10 +390,10 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖 𝙅𝙤𝙞𝙣 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("🔄 𝙍𝙚𝙛𝙧𝙚𝙨𝙝 🔄", callback_data="refreshmeh")
                             ]
                         ]
                     )
