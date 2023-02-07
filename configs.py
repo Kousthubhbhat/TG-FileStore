@@ -30,13 +30,11 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 │
 ├🔹📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 │
-├🔹📡 **Hosted On:** [𝐇𝐞𝐫𝐨𝐤𝐮](https://heroku.com)
+├🔹📡 **Hosted On:** 𝘼𝙒𝙎
 │
-├🔸👨‍💻 **Developer:** [@𝐏𝐫𝐞𝐝𝐚𝐭𝐨𝐫](https://t.me/PredatorHackerzZ) 
+├🔸👨‍💻 **Developer:** [@𝗖𝗥_𝟬𝗢𝟬](https://t.me/CR_0O0) 
 │
-├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/TeleRoid14)
-│
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/TeleRoidGroup)
+├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/DynoBots)
 │
 ╰──────[ 😎 ]───────────⍟
 """
