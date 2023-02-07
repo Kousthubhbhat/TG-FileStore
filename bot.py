@@ -74,16 +74,16 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/TGRobot_List")
+                        InlineKeyboardButton("𝘽𝙤𝙩𝙨𝙇𝙞𝙨𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/DynoBots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘽𝙤𝙩 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 𝘿𝙚𝙫 👨‍💻", callback_data="aboutdevs"),
+                        InlineKeyboardButton("𝘾𝙡𝙤𝙨𝙚 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TeleRoidGroup"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/TeleRoid14")
+                        InlineKeyboardButton("𝘽𝙤𝙩𝙨 𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/DynoBots"),
+                        InlineKeyboardButton("𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/CR_0O0")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/TeleRoid14)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩](https://t.me/CR_0O0)",
                                      disable_web_page_preview=True)
             return
 
