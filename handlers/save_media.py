@@ -55,6 +55,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
+                 [InlineKeybordButton("share Link", tg://msg_url?url=share_link],
                  [InlineKeyboardButton("Bots Channel", url="https://t.me/DynoBots"),
                   InlineKeyboardButton("Support", url="https://t.me/CR_0O0")]]
             ),
