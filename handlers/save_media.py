@@ -90,7 +90,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=PredatorHackerzZ_{str_to_b64(file_er_id)}"
         await editable.edit(
             "**Your File Stored in my Database!**\n\n"
-            f"Here is the Permanent Link of your file: {share_link} \n\n"
+            f"Here is the Permanent Link of your file: https://telegram.me/share/url?url={share_link} \n\n"
             "Just Click the link to get your file!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
